@@ -21,7 +21,7 @@ class _secondState extends State<second> {
 
   Future getweather() async {
     http.Response response = await http.get(
-        "http://api.openweathermap.org/data/2.5/weather?q=${widget.text}&units=metric&appid=6d83b76574e05a53b20d75d3bae87c2e");
+        "http://api.openweathermap.org/data/2.5/weather?q=${widget.text}&units=metric&appid=d6370aef532634b1269618a09aaebd98");
     var results = jsonDecode(response.body);
     print("HEllo");
     print(widget.text);
@@ -44,7 +44,7 @@ class _secondState extends State<second> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("AHMAD SARNUJI 181011450692"),
+        title: Text("EKA LESTARIYANI 181011450454"),
       ),
       body:
 
